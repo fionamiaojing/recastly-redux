@@ -32,6 +32,7 @@ describe('containers', function() {
       expect(store.dispatch.callCount).to.equal(1);
     });
     it('should be created using the React-Redux connect method', function() {
+      console.log(SearchContainer);
       expect(SearchContainer.name).to.equal('Connect');
     });
   });
